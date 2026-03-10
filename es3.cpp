@@ -3,12 +3,15 @@ using namespace std;
 
 int main()
 {
-    int n = 5;
+    int n;
+    cout << "inserisci un numero" << endl;
+    cin >> n;
+    
     int totale = 1;
     while(n>1){
-        totale *= n;
+        totale = totale * n;
         n--;
     }
-    cout << totale;
+    cout << totale << endl;;
     return 0;
 }
